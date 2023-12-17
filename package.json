@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "clarifai-nodejs-grpc": "^9.10.4"
-  }
-}

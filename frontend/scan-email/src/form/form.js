@@ -52,18 +52,9 @@ const Form = (props) => {
   return (
     <>
       <div className="your-component">
-        {loading ? (
-          // Show the loading spinner while the component is loading
-          <div className="loading-spinner"></div>
-        ) : (
-          // Render your component content once loading is complete
-          <div>
-            {/* Your component content goes here */}
-            <h1>Your Content</h1>
-          </div>
-        )}
+        {loading && <div className="loading-spinner"></div>}
       </div>
-      )
+
       {!loading && (
         <div className="form-container">
           <h2>secureInbox</h2>

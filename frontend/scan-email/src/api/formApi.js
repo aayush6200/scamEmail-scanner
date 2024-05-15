@@ -3,6 +3,7 @@ import Form from "../form/form";
 
 const FORMAPI = () => {
   const apiUrl = `http://localhost:1500/user/api/verify`;
+  // const url=`https://us-central1-inbox-730f0.cloudfunctions.net/app/user/api/verify`;
 
   const fetchFunction = async (data, callback) => {
     console.log("at form api", data);
